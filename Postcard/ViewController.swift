@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
+        // add comment
         
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
